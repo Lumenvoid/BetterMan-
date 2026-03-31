@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #2c2c3c;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.toggle {
+  margin: 15px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff6b6b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4c4c;
+}
